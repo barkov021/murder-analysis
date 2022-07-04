@@ -759,14 +759,7 @@ murder_vs_gun$Index_class <- as.factor(murder_vs_gun$Index_class)
 
 ```R
 ggplot(murder_vs_gun, aes(x = Index, y = murder_rate_100k, label = State, color = Index_class)) + 
-geom_point() + ![Unknown-2](https://user-images.githubusercontent.com/107770347/177198549-eaf67e05-9bae-47c8-9011-abd629ff1583.png)
-![Unknown-3](https://user-images.githubusercontent.com/107770347/177198552-75efbb02-ac8e-45f9-af99-4d1750acbd32.png)
-![Unknown-4](https://user-images.githubusercontent.com/107770347/177198556-5cd691ef-81ed-4e26-ab49-bf722c28ad9d.png)
-![Unknown-5](https://user-images.githubusercontent.com/107770347/177198559-a93219bf-5583-4ca9-b33a-b7e476723e56.png)
-![Unknown-6](https://user-images.githubusercontent.com/107770347/177198560-4730ada7-0bbb-48a6-aba2-23c549e005f1.png)
-![Unknown-7](https://user-images.githubusercontent.com/107770347/177198561-b135c695-d9bc-49d7-9a47-643ec88e3b00.png)
-![Unknown](https://user-images.githubusercontent.com/107770347/177198562-c16c4d17-37cd-4731-be7a-556d06fb762a.png)
-
+geom_point() + 
 geom_label() + 
 scale_color_manual(values = c("Anti-gun" = 'red', "Middle" = 'orange', "Pro-gun" = 'Green'))+ 
 scale_y_log10() 
@@ -775,7 +768,8 @@ scale_y_log10()
 
     
 ![png](output_49_0.png)
-    
+ ![Unknown-7](https://user-images.githubusercontent.com/107770347/177198774-88413f89-0cbd-4be7-b4e3-7c987aff4bb6.png)
+   
 
 
 
