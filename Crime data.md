@@ -344,7 +344,8 @@ facet_wrap(vars(State), scales = "free_y")
 
     
 ![png](output_12_0.png)
-    
+    ![Unknown](https://user-images.githubusercontent.com/107770347/177199001-b0a7eb6e-371f-470b-b368-53317711a0ec.png)
+
 
 
 
@@ -435,7 +436,8 @@ labs()
 
     
 ![png](output_23_0.png)
-    
+    ![Unknown-2](https://user-images.githubusercontent.com/107770347/177198980-8786fdef-ac61-49d1-9661-8da7c5ce097b.png)
+
 
 
 
@@ -478,13 +480,15 @@ labs(title = "Popilation")
 
     
 ![png](output_26_0.png)
-    
+    ![Unknown-3](https://user-images.githubusercontent.com/107770347/177198970-01d6ed5a-15e2-494a-9956-e5df0a5a7aa4.png)
+
 
 
 
     
 ![png](output_26_1.png)
-    
+    ![Unknown-4](https://user-images.githubusercontent.com/107770347/177198957-8f2b961f-36f3-4116-8780-b9f6f027c3b6.png)
+
 
 
 
@@ -570,7 +574,8 @@ theme(
 
     
 ![png](output_34_0.png)
-    
+    ![Unknown-5](https://user-images.githubusercontent.com/107770347/177198945-ac3f0464-5a18-41d0-b79f-740044013fe0.png)
+
 
 
 
@@ -602,7 +607,8 @@ theme(
 
     
 ![png](output_36_0.png)
-    
+  ![Unknown-6](https://user-images.githubusercontent.com/107770347/177198924-45c3c3e8-ed84-4c79-8164-ebccd392c68a.png)
+  
 
 
 
