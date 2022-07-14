@@ -1,9 +1,9 @@
 ```R
-#In this project I'm going to explore murders data in the US. I want to answer  5 questions about it:
+#In this project I'm going to explore murder data in the US. I want to answer  5 questions about it:
 #1) Which states were doing better in decreasing murder numbers?
-#2) When did murders hit their maximum ?
-#3) Which states were doing better in decreasing level of murders (murders/population), and were these states the same as in the fist question
-#4) What states were having the lowest murder rate for a long time?
+#2) When did murders hit  maximum?
+#3) Which states were doing better in decreasing the level of murders (murders/population), and were these states the same as in the first question
+#4) What states had the lowest murder rate for a long time?
 #5) Does it correlate with the GFI(Gun Friendly Index)?
 ```
 
@@ -372,7 +372,7 @@ pop$Areaname <- as.factor(pop$Areaname)
 
 
 ```R
-#Changing column with state name to abbreviation
+#Changing column with state name to the abbreviations
 state_code$Name <- as.character(state_code$Name)
 state_code$Name <- str_remove(state_code$Name, pattern = "\\s")
 state_code$Name <- str_replace(state_code$Name, "Districtof Columbia", "DistrictofColumbia")
@@ -505,7 +505,7 @@ labs()
 
 
 ```R
-#These data wouldn't affect the first qustion, because we want to find decreasing in number of murders
+#These data wouldn't affect the first question, because we want to find decreasing in the number of murders
 #But it can help us to see a wider picture of what is going on 
 #As we have decreasing in population in some states
 ```
@@ -518,7 +518,7 @@ labs()
 
 
 ```R
-#Analyzing murder statistics we can choose few states which were really good in decreasing this level 
+#Analyzing murder statistics, we can choose a few states which were really good in decreasing this level 
 #It will be CA, CT, HI, MI, NJS, NY, TX, WY, DC, WV
 good_crime_data <- crime_data %>%
 filter(State %in% c("CA", "CT",  "HI", "MI", "NJS", "NY",  "TX", "WY", "WV", "DC"))
@@ -554,7 +554,7 @@ labs(title = "Popilation")
 
 
 ```R
-#Here we see more visible graphs for states were better in decreasing number of  murders, and most of them increased
+#Here we see more visible graphs for states that were better in decreasing the number of  murders, and most of them increased
 #the population, otherwise WV and DC didn't
 ```
 
@@ -594,16 +594,16 @@ crime_data_max_good
 
 
 ```R
-#Now we know when these states hited the highest number of murders in last 40 years
+#Now we know when these states hit the highest number of murders in the last 40 years
 
 ```
 
 
 ```R
-#To analyze the rate of murders per population I'm going to build graphs that would't be very accurate, but 
+#To analyze the rate of murders per population, I'm going to build graphs that wouldn't be very accurate, but 
 #They would be able to show us the trends
 
-#As I don't have population data for each year I'm going to create a table for 1980, 1990, 2000, and 2010 years
+#As I don't have population data for each year I'm going to create a table for the 1980, 1990, 2000, and 2010 years
 ```
 
 
@@ -718,7 +718,7 @@ theme(
 #the introduction of crack cocaine during the late 1980s and early 1990s.
 
 
-#So comparing all states on the scale isn't informative, so I will deduct DC
+#So comparing all states on the scale isn't informative, so that I will deduct DC
 
 murder_rate_table_50 <- murder_rate_table %>%
 filter(State != "DC")
@@ -1044,7 +1044,7 @@ scale_y_log10()
 ```R
 cor(murder_vs_gun$Index, murder_vs_gun$murder_rate_100k)
 
-#As we can see from the calculation and the graph there's no correlation between gun freedom
+#As we can see from the calculation and the graph, there's no correlation between gun freedom
 #and murder rate
 
 ```
