@@ -60,9 +60,9 @@ cor(murder_vs_gun$Index, murder_vs_gun$murder_rate_100k)
 
 ## Screenshots
 
-![App Screenshot](output_26_0.png)
+![App Screenshot](lowestAndHighestRatesTable.png)
 
-![App Screenshot](output_49_0.png)
+
 
 
 
