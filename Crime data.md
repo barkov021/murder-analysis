@@ -343,7 +343,7 @@ facet_wrap(vars(State), scales = "free_y")
 
 
     
-![png](output_12_0.png)
+![png](YearVsNumbeerOfCrimes.png)
     
 
 
@@ -499,7 +499,7 @@ labs()
 
 
     
-![png](output_23_0.png)
+
     
 
 
@@ -542,13 +542,13 @@ labs(title = "Popilation")
 
 
     
-![png](output_26_0.png)
+![png](YearVsNumbeerOfCrimes.png)
     
 
 
 
     
-![png](output_26_1.png)
+![png](top9 state in cutting murders.png)
     
 
 
@@ -707,7 +707,7 @@ theme(
 
 
     
-![png](output_34_0.png)
+![png](numberOfmurdersPer100k.png)
     
 
 
@@ -739,7 +739,7 @@ theme(
 
 
     
-![png](output_36_0.png)
+![png](murderRateWithoutDc.png)
     
 
 
@@ -1036,7 +1036,7 @@ scale_y_log10()
 
 
     
-![png](output_49_0.png)
+![png](murder_RateVsGunIndex.png)
     
 
 
